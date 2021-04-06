@@ -1,20 +1,22 @@
 Mahmoud :
-Ebay >>>>>>>>>>>>>>> HomePage
-airbnb >>>>>>>>>>>>> Search
-AT&T >>>>>>>>>>>>>>> Wireless
-Bank of America >>>> Credit Cards
-BMW >>>>>>>>>>>>>>>> 8 Series
-CbsSports >>>>>>>>>> Fantasy
-Chase bank >>>>>>>>> Business
-ESPN >>>>>>>>>>>>>>> NBA
-Expedia >>>>>>>>>>>> Cars
-Macy's >>>>>>>>>>>>> Deals
-Mercedes Benz >>>>>> vehicles
-Redfin >>>>>>>>>>>>> Buy
+Ebay >>>>>>>>>>>>>>> https://www.ebay.com/HomePage
+airbnb >>>>>>>>>>>>> https://www.airbnb.com/host/homes Became a host
+AT&T >>>>>>>>>>>>>>> https://www.att.com/wireless/Wireless
+Bank of America >>>> https://www.bankofamerica.com/credit-cards/Credit Cards
+BMW >>>>>>>>>>>>>>>> https://www.bmwusa.com/
+CbsSports >>>>>>>>>> https://www.cbssports.com/fantasy/Fantasy
+Chase bank >>>>>>>>> https://www.chase.com/business/checking
+ESPN >>>>>>>>>>>>>>> https://www.espn.com/nba/NBA
+Expedia >>>>>>>>>>>> https://www.expedia.com/Cars/Cars
+Macy's >>>>>>>>>>>>> https://www.macys.com/shop/coupons-Deals
+Mercedes Benz >>>>>> https://www.mbusa.com/en/all-vehicles
+Redfin >>>>>>>>>>>>> https://www.redfin.com/careers /
 Verizon >>>>>>>>>>>> Business/https://www.verizon.com/business/solutions/
-Trulia  >>>>>>>>>>>> Rent
-Lamara :
+Trulia  >>>>>>>>>>>> https://www.trulia.com/for_rent/Brooklyn,NY/ Rent
 _____________
+
+Lamara :
+
 https://www.expedia.com/  >>>>> HomePage
 https://www.ebay.com/ >>>>>>>  Electronics
 https://www.cbssports.com/>>>> Soccer
@@ -29,3 +31,33 @@ https://www.verizon.com >>>>>  https://www.verizon.com/business/products/plans/ 
 https://www.chase.com >>>>>>  https://autofinance.chase.com/auto-finance/auto-loans?offercode=WDXDPXXX00 (Auto)
 https://www.mbusa.com >>>>>   https://www.mbusa.com/en/vehicle-inventory
 https://www.redfin.com >>>gi>>>   https://www.redfin.com/news/
+_______________
+
+Salah :
+bankOfAmerica => Chenking https://www.bankofamerica.com/deposits/checking/checking-accounts/
+
+Airbnb => Home Page https://www.airbnb.com/
+
+Att => Phone & device https://www.att.com/buy/phones/
+
+BMW => Series 8 https://www.bmwusa.com/!!!!!!
+
+cbsSports =>  https://picks.cbssports.com/college-basketball/ncaa-tournament/bracket!!!!!
+
+chaseBank => home loan https://www.chase.com/personal/mortgage
+
+eBay => https://www.ebay.com/b/Fashion/bn_7000259856!!!!!!
+
+Espy => https://www.espn.com/golf/!!!!
+
+Expedia =>https://www.expedia.com/FLIGHTS!!!!!!
+
+Macys => https://www.macys.com/wishlist/home/LISTS!!!!!!!
+
+MercedesBenz => Shopping https://www.mbusa.com/en/vehicles/build/glc/suv
+
+Redfin => Mortgage https://www.redfin.com/mortgage-rates?context=3
+
+Trulia => Find a rentel https://www.trulia.com/apartments-for-rent-near-me/
+
+Verizon => Home page https://www.verizon.com/
