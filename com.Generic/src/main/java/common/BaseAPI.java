@@ -6,20 +6,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+
 public class BaseAPI {
     public static WebDriver driver;
-    static final String URL = "https://www.ebay.com/";
+
 
     @BeforeMethod
     public static void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get(URL);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
-
-
-    }
+        driver.manage().window().maximize(); }
 
     @AfterMethod
     public static void tearDown() {

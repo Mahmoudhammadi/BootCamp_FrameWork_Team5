@@ -1,5 +1,5 @@
 package homePage;
 
-public class homePageWebElements {
+public class homePageLocators {
     public static final String webElementLocation="";
 }

@@ -26,67 +26,103 @@
         <module>com.chasebank</module>
     </modules>
 
+
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
     <dependencyManagement>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
-            <version>3.141.59</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-    </dependencies>
+        <dependencies>
+
+            <dependency>
+                <groupId>io.github.bonigarcia</groupId>
+                <artifactId>webdrivermanager</artifactId>
+                <version>4.3.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>3.141.59</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-server</artifactId>
+                <version>3.141.59</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.14.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>4.1.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>4.1.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>6.9.1</version>
+            </dependency>
+
+        </dependencies>
     </dependencyManagement>
-        <build>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
-                </plugin>
 
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M3</version>
-                    <configuration>
-                        <systemPropertyVariables>
-                            <testng.dtd.http>true</testng.dtd.http>
-                        </systemPropertyVariables>
 
-                        <testFailureIgnore>true</testFailureIgnore>
 
-                        <suiteXmlFiles>
-                        </suiteXmlFiles>
-                    </configuration>
-                </plugin>
-            </plugins>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <testng.dtd.http>true</testng.dtd.http>
+                    </systemPropertyVariables>
+
+                    <testFailureIgnore>true</testFailureIgnore>
+
+                    <suiteXmlFiles>
+                        <suiteXmlFile>target/test-classes/AirBnBTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ATTTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/BankOfAmericaTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/BMWTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/CBSSportsTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ChaseTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/EbayTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ESPNTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/ExpediaTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MacysTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MercedesBenzTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/RedfinTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/TruliaTestNGRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/VerizonTestNGRunner.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
         </build>
 </project>
