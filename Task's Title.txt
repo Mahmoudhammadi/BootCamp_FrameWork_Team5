@@ -41,7 +41,7 @@ https://www.trulia.com >>>>>>>homePage
 https://www.airbnb.com >>>>>>homepage
 https://www.macys.com >>>>>>stores
 https://www.espn.com  >>>>>>>mlb
-https://www.verizon.com >>>>>products
+https://www.verizon.com >>>>>homepage
 https://www.chase.com >>>>>>credit cards
 https://www.redfin.com >>>>>>sell
 

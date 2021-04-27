@@ -5,12 +5,12 @@
 
     <test name="CR1">
 
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="90"/>
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="90"/>-->
         <parameter name="url" value="https://www.expedia.com/"/>
 
         <classes>
-            <class name="TestPackages"/>
+            <class name="TestHomePage.TestPackages"/>
         </classes>
 
     </test>

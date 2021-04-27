@@ -10,7 +10,7 @@
         <parameter name="url" value="https://www.trulia.com"/>
 
         <classes>
-            <class name="testHome.TestHomePage"/>
+            <class name="testHome.AirbnbHomepageTest"/>
         </classes>
 
     </test>

@@ -14,13 +14,14 @@ import static homePage.PackagesLocators.*;
 
 public class HomePageExpedia extends BaseAPI {
 
+
     @FindBy(xpath = packagesXpath)
     public WebElement packages;
-    @FindBy(xpath =leavingFromXpath)
+    @FindBy(xpath = leavingFromXpath)
     public WebElement leavingFrom;
-    @FindBy(xpath =leavingtoXpath)
+    @FindBy(xpath = leavingtoXpath)
     public WebElement leavingto;
-    @FindBy(xpath =accomodationXpath)
+    @FindBy(xpath = accomodationXpath)
     public WebElement accomodation;
     @FindBy(xpath = SearchXpath)
     public WebElement Search;
@@ -29,8 +30,11 @@ public class HomePageExpedia extends BaseAPI {
     public HomePageExpedia() {
         PageFactory.initElements(driver, this);
     }
-    public void setPackages() {
-        packages.click(); }
+
+    public void clickOnPackages() {
+        packages.click();
+    }
+
 
     public void setAccomodation() {
         accomodation.click();
@@ -50,3 +54,14 @@ public class HomePageExpedia extends BaseAPI {
 
 
 }
+//    Robot nam = new Robot();
+//        nam.delay(4000);
+//                // nam.keyPress(KeyEvent.VK_ENTER);
+//                //nam.keyRelease(KeyEvent.VK_ENTER);
+//                nam.keyPress(KeyEvent.VK_PAGE_DOWN);
+//                //nam.keyRelease(KeyEvent.VK_PAGE_DOWN);
+//                nam.delay(7000);
+//                nam.keyPress(KeyEvent.VK_PAGE_UP);
+//                //nam.keyRelease(KeyEvent.VK_PAGE_UP);
+//                nam.keyPress(KeyEvent.VK_F12);
+//                nam.keyRelease(KeyEvent.VK_F12);

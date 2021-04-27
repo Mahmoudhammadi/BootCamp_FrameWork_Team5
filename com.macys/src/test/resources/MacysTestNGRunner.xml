@@ -10,7 +10,7 @@
         <parameter name="url" value="https://www.macys.com"/>
 
         <classes>
-            <class name="Tes"/>
+            <class name="testHome.TestStores"/>
         </classes>
 
     </test>

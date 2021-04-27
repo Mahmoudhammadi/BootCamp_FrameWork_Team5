@@ -10,7 +10,7 @@
         <parameter name="url" value="https://www.verizon.com"/>
 
         <classes>
-            <class name="testHome.TestProducts"/>
+            <class name="TestHomePage.HomePageTest"/>
         </classes>
 
     </test>

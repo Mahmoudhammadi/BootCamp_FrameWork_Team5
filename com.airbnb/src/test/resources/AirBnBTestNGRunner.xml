@@ -10,7 +10,7 @@
         <parameter name="url" value="https://www.airbnb.com/"/>
 
         <classes>
-<!--            <class name="homepageTest.HomepageTest"/>-->
+            <class name="TestHomePage.HomePageTest"/>
         </classes>
 
     </test>
