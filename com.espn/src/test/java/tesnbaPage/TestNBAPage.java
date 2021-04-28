@@ -56,7 +56,7 @@ public class TestNBAPage extends BaseAPI {
         home9.nbaButton();
         List<WebElement> elementList = home9.allTeams;
         int actualCount = elementList.size();
-        int expectedCount = 36;
+        int expectedCount = 30;
 
         Assert.assertEquals(actualCount, expectedCount, "COUNT OF teams DOES NOT MATCH");
     }

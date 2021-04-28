@@ -70,25 +70,8 @@ import java.util.List;
         }
         public void enterDataToSearchBox(String product) throws InterruptedException {
             SEARCH_BOX.click();
-
-
-
             SEARCH_BOX.sendKeys(product);
-
-            //SEARCH_BOX.sendKeys(Keys.ENTER);
         }
-
-
-        //for sign
-//    @DataProvider
-//    public Object[][] getListOfItems() throws Exception {
-//        String path = System.getProperty("user.dir") + "/src/test/resources/mahmoud5.xlsx";
-//        Object[][]testData = dataReader.fileReaderArrayStringArraysXSSF(path, "team5");
-//
-//        return testData;
-        //  }
-
-
         //handle boots tarp
         public void allCat(String element){
             allCat.click();
