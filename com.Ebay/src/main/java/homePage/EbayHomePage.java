@@ -73,7 +73,7 @@ import java.util.List;
             SEARCH_BOX.sendKeys(product);
         }
         //handle boots tarp
-        public void allCat(String element){
+        public void allCategory(String element){
             allCat.click();
             List<WebElement> list=driver.findElements(By.xpath(getWebElementGAllCate));
             for (int i =0 ;i<list.size();i++){

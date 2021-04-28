@@ -68,7 +68,7 @@ public class TestCarsPage extends BaseAPI {
         Assert.assertEquals(actualResult,expectedResult,"text not match");
 
     }
-    @Test(dataProviderClass = CarsPage.class, dataProvider = "getTestData2")
+  // @Test(dataProviderClass = CarsPage.class, dataProvider = "getTestData2")
     public void testSearchBox(String location) throws SQLException, IOException, ClassNotFoundException, InterruptedException {
 
         home7 = new CarsPage();
@@ -77,6 +77,31 @@ public class TestCarsPage extends BaseAPI {
         home7.enterData(location);
 
     }
+    @Test(enabled = false)
+   public void testSelectPickUpDate() throws Exception {
+        home7 = new CarsPage();
+        home7.carsButton1();
+        home7.selectPickUpdate();
+        Assert.assertTrue(isElementSelected(home7.pickUpDate));
+
+    }
+    @Test(enabled = false)
+    public void testSelectDropOffDate()throws Exception{
+        home7 = new CarsPage();
+        home7.carsButton1();
+        home7.selectDropOffDate();
+        Assert.assertTrue(isElementSelected(home7.dropOffDate));
+
+    }
+    @Test()
+    public void testPickUpLocation() throws Exception {
+        home7 = new CarsPage();
+        home7.carsButton1();
+        home7.selectPickUpLocation();
+        //Assert.assertTrue(isElementDisplayed(home7.GeneralLocation));
+
+    }
+
 
 
 

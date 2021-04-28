@@ -4,7 +4,6 @@ import homePage.EbayHomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.awt.*;
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -17,7 +16,7 @@ public class TestHomePageEbay extends BaseAPI {
     @Test()
     public void testAllCat() {
         home1 = new EbayHomePage();
-        home1.allCat("Books");
+        home1.allCategory("Books");
         String act = home1.validation();
         String expected = "Books";
         Assert.assertEquals(act, expected, "books not match");
